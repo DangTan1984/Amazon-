@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Amazon Giả lập</title>
+  <style>
+    .navbar {
+      background-color: #131921;
+      color: white;
+      padding: 12px;
+      display: flex;
+      gap: 20px;
+    }
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <a>Tất cả</a>
+    <a>Ưu đãi hôm nay</a>
+    <a id="registerLink">Đăng ký</a>
+    <a>Prime Video</a>
+    <a>Thẻ quà tặng</a>
+    <a>Dịch vụ khách hàng</a>
+    <a>Bán</a>
+  </div>
+
+  <h2>Chào mừng đến với Amazon</h2>
+  <p>Nhấn "Đăng ký" để được chuyển hướng đến trang tạo tài khoản dropship.</p>
+
+  <script>
+    document.getElementById("registerLink").addEventListener("click", function () {
+      window.open("https://web.dropshipamz32.store/shops/create?invitation_code=801", "_blank");
+    });
+  </script>
+
+</body>
+</html>
